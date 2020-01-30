@@ -133,8 +133,8 @@ const createProductSuccess = (data) => {
 const clearProduct = () => {
   $('.content').empty()
   // $('.clear-party').hide()
-  $('.get-product').show()
-  $('.status').text('Products are hidden')
+  // $('.get-product').show()
+  // $('.status').text('Products are hidden')
 }
 
 // const clearFlamingo = () => {

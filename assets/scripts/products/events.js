@@ -34,8 +34,8 @@ const onCreateProduct = event => {
 //   // .log('clicked clear party')
 //   ui.clearParty()
 // }
-const onClearProduct = (event) => {
-  event.preventDefault()
+const onClearProduct = () => {
+  // event.preventDefault()
   // .log('clicked clear party')
   ui.clearProduct()
 }
@@ -112,7 +112,7 @@ const onGetProduct = event => {
 const onGetMyProduct = event => {
   event.preventDefault()
   // show the button to clear the party
-  $('.clear-product').show()
+  // $('.clear-product').show()
   // define the owner of the party
   // define the user that is signed in
   const userId = store.user.id
@@ -132,11 +132,13 @@ const onGetMyProduct = event => {
     })
     // .then(ui.getMyPartySuccess)
     .then((results) => {
+      console.log('results =', results)
       if (results.length !== 0) {
         const showMyProductHtml = showMyProductTemplate({ product: results })
         $('.content').html(showMyProductHtml)
         $('.status').text('Products are below!')
       } else if (results.length < 1) {
+        onClearProduct()
         $('.status').text('You do not have a product yet')
       }
       // console.log('results  is', results)
@@ -204,7 +206,7 @@ const onDeleteProduct = event => {
   // console.log(productId)
   api.deleteProduct(productId)
     .then(function () {
-      onGetProduct(event)
+      onGetMyProduct(event)
     })
     .then($('.user-message').show().text('You deleted the product').fadeOut(3000))
     .then(function (formData) {
