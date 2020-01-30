@@ -124,10 +124,10 @@ const onGetMyProduct = event => {
 
   api.getProduct()
     .then((res) => {
-      console.log(res)
+      // console.log(res)
       // //console.log('api is making the request. formData is', formData)
       const results = res.products.filter(product => product.user_id === userId)
-      console.log(results)
+      // console.log(results)
       return results
     })
     // .then(ui.getMyPartySuccess)
@@ -201,7 +201,7 @@ const onGetMyProduct = event => {
 const onDeleteProduct = event => {
   event.preventDefault()
   const productId = $(event.target).data('id')
-  console.log(productId)
+  // console.log(productId)
   api.deleteProduct(productId)
     .then(function () {
       onGetProduct(event)
@@ -231,7 +231,7 @@ const onUpdateProduct = event => {
   event.preventDefault()
   // //console.log('in events.js form is', form)
   const productId = $(event.target).data('id')
-  console.log(productId)
+  // console.log(productId)
   const form = event.target
   const formData = getFormFields(form)
   // console.log(formData, partyId)

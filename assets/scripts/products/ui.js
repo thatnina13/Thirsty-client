@@ -146,7 +146,7 @@ const clearProduct = () => {
 const updateProduct = () => {
   $('form').trigger('reset')
   $('.status').text('you updated your product')
-  $('.user-message').show().text('You updated the product').fadeOut(3000)
+  $('.user-message').show().text('You updated the product')
 }
 // const updateFlamingo = () => {
 //   $('form').trigger('reset')
