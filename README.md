@@ -88,7 +88,7 @@ consumption over the course of a month - I would be able to see my reduction ove
 - [Deployed Client](https://thatnina13.github.io/Thirsty-client/)
 
 #### Wireframe:
-![wireframe](https://docs.google.com/presentation/d/1W2SffZHU_GG4XdcJ4dphnCWOizSKQjVb7BDzF8hvg1U/edit?usp=sharing)
+[wireframes](https://docs.google.com/presentation/d/1W2SffZHU_GG4XdcJ4dphnCWOizSKQjVb7BDzF8hvg1U/edit?usp=sharing)
 
 
 #### ERD:
