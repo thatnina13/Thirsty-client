@@ -20,7 +20,7 @@ footprints of the products they buy and eat. Thirsty is, as I’ve dreamed it, a
 tool built for the clueless boobs of the world. I’m not suggesting we all must
 become vegans or give up coffee. Nor am I claiming to have cracked the water
 problem or to even have good sustainable habits myself. Case in point: I took
-three showers yesterday. The third was completely unneeded and functioned purley
+three showers yesterday :information_desk_person:. The third was completely unneeded and functioned purley
 as a safe place for me to have a good old fashioned 3 am- I-can’t-fix-this-friggin-
 user-facing-bug cry. Instead, I hope that with easier access to important and
 meaningful information, more people will have more opportunities to make more
@@ -45,7 +45,8 @@ update, read and destroy a resource or, entry.
 ##### Here are some super fun stats to start us off:
 - One egg- thats right, a SIGNLE EGG requires 53 gallons of water to produce
 - One gallon of milk requires 880 gallons of water
-- A single 1/3-pound burger requires 660 gallons of water
+- A single 1/3-pound burger :cow2: requires 660 gallons of water :droplet:
+
 - And the real kick in the teeth: It takes 450 gallons of water to make one 3.5-ounce (100-gram) chocolate bar
 Sweet baby ray- how many rivers have run dry as the hands of my 30 years of Halloween candy???
 
